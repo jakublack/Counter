@@ -1,1 +1,1 @@
-CMS_photo
+Counter of days

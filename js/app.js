@@ -26,9 +26,8 @@ for(var i=month-1;i>=0;i--){
             alldays += 30;
             break;
     }
-    console.log(alldays);
 }
 alldays += days;
-console.log(alldays);
-
-
+document.querySelector("#todayDay").innerHTML = alldays;
+document.querySelector("#thisYear").innerHTML = year;
+document.querySelector("#leftDays").innerHTML = 365 - alldays;

@@ -2,6 +2,7 @@ body{
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background: -webkit-linear-gradient(right, #bed500, #14cbdf, #adb90a, #4f68ce);
     background: -o-linear-gradient(right, #bed500, #14cbdf, #adb90a, #4f68ce);
     background: linear-gradient(to left, #bed500, #14cbdf, #adb90a, #4f68ce);
@@ -47,8 +48,6 @@ h3{
 main{
     border: outset 2px white;
     padding: 30px;
-    top: 40%;
-    position: absolute;
     border-radius: 5px;
     box-shadow: 20px 20px 20px -20px;
     transition: all 2s;

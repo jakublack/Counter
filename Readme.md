@@ -8,3 +8,5 @@ Used technologies:
 - JavaScript.
 
 You need to see it: https://jakublack.github.io/Counter/
+
+JG

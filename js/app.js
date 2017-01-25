@@ -1,16 +1,13 @@
-//var today = new Date();
-var today = new Date(2017, 03, 17);
+var today = new Date();
 var days = today.getDate();
 var year = today.getFullYear()
 var month = today.getMonth()
-console.log(month)
 var alldays = 0;
 
-for(var i=month;i>=0;i--){
+for(var i=month-1;i>=0;i--){
+    month--;
     switch (month){
         case 0:
-            alldays=days;
-            break;
         case 2:
         case 4:
         case 6:
@@ -31,5 +28,7 @@ for(var i=month;i>=0;i--){
     }
     console.log(alldays);
 }
+alldays += days;
+console.log(alldays);
 
 

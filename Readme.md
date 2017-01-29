@@ -7,6 +7,6 @@ Used technologies:
 - CSS3,
 - JavaScript.
 
-You need to see it: https://jakublack.github.io/Counter/
+You need to see it: https://jakublack.github.io/Counter_CSS/
 
 JG

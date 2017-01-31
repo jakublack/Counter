@@ -1,8 +1,8 @@
-var today = new Date();
-var days = today.getDate();
-var year = today.getFullYear()
-var month = today.getMonth()
-var alldays = 0;
+let today = new Date(),
+    days = today.getDate(),
+    year = today.getFullYear(),
+    month = today.getMonth(),
+    alldays = 0;
 
 for(var i=month-1;i>=0;i--){
     month--;
